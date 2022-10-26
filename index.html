@@ -17,7 +17,7 @@
             <h1>MENTORIA</h1>
             <p>Preencha o formulário abaixo para<br> agendar a sua mentoria.</p>
         </header>
-        <form>
+        <form autocomplete="off">
             <fieldset>
                 <legend>INFORMAÇÕES PESSOAIS</legend>
 
@@ -48,13 +48,58 @@
 
             <fieldset>
                 <legend>INFORMAÇÕES DO MENTOR</legend>
-
                 <div class="input-wrapper">
                     <label for="event-title">Nome do seu mentor <span>(só o primeiro nome)</span></label>
                     <input type="text" id="event-title" />
                 </div>
-
             </fieldset>
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>SEUS HORÁRIO DISPONÍVEIS</legend>
+                    <h2>PRIMEIRA MENTORIA</h2>
+
+                    <div class="col-3">
+
+                        <div class="input-wrapper">
+                            <label for="event-date">Data</label>
+                            <input type="date" id="event-date" />
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="event-begin">Das</label>
+                            <input type="time" id="event-begin" />
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="event-end">Até</label>
+                            <input type="time" id="event-end" />
+                        </div>
+                    </div>
+
+                    <h2>SEGUNDA MENTORIA</h2>
+
+                    <div class="col-3">
+
+                        <div class="input-wrapper">
+                            <label for="event-date">Data</label>
+                            <input type="date" id="event-date" />
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="event-begin">Das</label>
+                            <input type="time" id="event-begin" />
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="event-end">Até</label>
+                            <input type="time" id="event-end" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+
         </form>
     </div>
 </body>
